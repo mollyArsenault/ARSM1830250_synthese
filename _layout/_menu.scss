@@ -1,0 +1,52 @@
+div.menu{
+    height: 120px;
+    background-color: salmon;
+    position: relative;
+
+    & > h1{
+        color: white;
+        position: absolute;
+        left: 580px;
+        top: -45px;
+        font-size: 65px;
+    }
+
+    & > img{
+        position: absolute;
+        top: -30px;
+        height: 150px;
+    }
+}
+
+
+
+div.liste{
+    position:relative;
+
+    & > ul{
+list-style-type: none;
+position: absolute;
+top: 60px;
+left: 150px;
+    }
+
+    & > li{
+        display: block;
+        width:300px;
+        float:left;
+        margin-left:2px;
+        font-size: 25px;
+        color: white;
+    }
+
+    & > a{
+text-decoration: none;
+color:white;
+    }
+
+    & >a:hover{
+        color: black;
+    }
+}
+
+

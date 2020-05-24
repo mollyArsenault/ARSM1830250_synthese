@@ -1,0 +1,1069 @@
+
+a:hover{
+animation: pulse;
+animation-duration: 2s;
+}
+
+div.forfaits{
+    position:absolute;
+    width: 1500px;
+    background-color: seashell;
+
+    & > p{
+        padding-left: 480px;
+    }
+
+    & > h1{
+        padding-left: 600px;
+    }
+
+    & > button{
+        position: absolute;
+        left: 665px;
+        bottom: 10px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+    }
+
+    @include breakpoint(1800){
+        width: 1800px;
+        border: 1px solid white;
+    }
+}
+
+
+
+
+
+
+div.images{
+    padding-left: 50px;
+
+    & > img{
+        padding:80px;
+    }
+}
+
+
+
+
+
+div.heures{
+    position:absolute;
+    top: 850px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 600px;
+    }
+
+    & > p{
+        padding-left: 410px;
+        color: black;
+    }
+
+    & > h3{
+        padding-left: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+div.promotion{
+    background-color: seashell;
+    position: absolute;
+    top: 1250px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 700px;
+    }
+
+    & > h3{
+        padding-left: 680px;
+    }
+}
+
+
+
+
+div.promo ul{
+    list-style-type: none;
+    padding-left: 50px;
+
+    & > li{
+        text-align: center;
+    }
+}
+
+
+
+
+
+div.commander{
+    position: absolute;
+    top: 1445px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 620px;
+    }
+
+    & > h2{
+        padding-left: 730px;
+    }
+
+    & > p{
+        padding-left: 280px;
+    }
+}
+
+
+
+
+
+
+div.livraison{
+    background-color: seashell;
+    position: absolute;
+    top: 1780px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 700px;
+    }
+
+    & > img{
+        height: 200px;
+    }
+
+    & > p{
+        position: absolute;
+        bottom: 100px;
+        padding-left: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    & > button{
+        position: absolute;
+        left: 700px;
+        bottom: 10px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+
+div.entreprise{
+    position: absolute;
+    top: 2060px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 660px;
+    }
+
+    & > h2{
+        padding-left: 700px;
+    }
+
+    & > img{
+        padding-left: 450px;
+        padding-bottom: 20px;
+    }
+
+    & > p{
+        position: absolute;
+        bottom: 20px;
+        padding-left: 250px;
+        font-size: 25px;
+        text-align: left;
+        width: 500px;
+        left: 525px;
+    }
+}
+
+
+
+
+
+
+
+div.question{
+    background-color: seashell;
+    position: absolute;
+    top: 2510px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 1000px;
+    }
+
+    & > img{
+        height: 300px;
+        padding-left: 200px;
+    }
+
+    & > p{
+        padding-left: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+div.formulaire{
+    position:absolute;
+    left: 1000px;
+    bottom: 250px;
+    font-size: 25px;
+
+    & > form{
+        color: black;
+    }
+
+    & > form button{
+        color: white;
+        background-color: seashell;
+    }
+
+
+}
+
+
+
+
+
+
+div.roses{
+    background-color: seashell;
+
+    & > h2{
+        font-size: 50px;
+        padding-left: 650px;
+
+    }
+
+    & > img{
+        padding-left: 400px;
+    }
+
+    & > p{
+        position: absolute;
+        top: 300px;
+        font-size: 25px;
+        width: 300px;
+        padding-left: 800px;
+
+    }
+
+    & > button{
+
+        position: absolute;
+        left: 800px;
+        top: 600px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+div.tulipes{
+    background-color: seashell;
+
+    & > h2{
+        font-size: 50px;
+        padding-left: 650px;
+
+    }
+
+    & > img{
+        padding-left: 400px;
+    }
+
+    & > p{
+        position: absolute;
+        top: 300px;
+        font-size: 25px;
+        width: 300px;
+        padding-left: 800px;
+    }
+
+    & > button{
+        position: absolute;
+        left: 800px;
+        top: 600px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+
+div.tournesols{
+    background-color: seashell;
+
+    & > h2{
+        font-size: 50px;
+        padding-left: 650px;
+    }
+
+    & > img{
+        padding-left: 400px;
+    }
+
+    & > p{
+        position: absolute;
+        top: 300px;
+        font-size: 25px;
+        width: 300px;
+        padding-left: 800px;
+    }
+
+    & > button{
+        position: absolute;
+        left: 800px;
+        top: 600px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+
+div.oeillets{
+    background-color: seashell;
+
+    & > h2{
+        font-size: 50px;
+        padding-left: 650px;
+    }
+
+    & > img{
+        padding-left: 400px;
+    }
+
+    & > p{
+        position: absolute;
+        top: 300px;
+        font-size: 25px;
+        width: 300px;
+        padding-left: 800px;
+    }
+
+    & > button{
+        position: absolute;
+        left: 800px;
+        top: 600px;
+    }
+}
+
+
+
+
+
+
+
+
+div.livraison-02{
+    position: absolute;
+    top: 1150px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 700px; 
+    }
+
+    & > img{
+        height: 200px;
+    }
+
+    & > p{
+        position: absolute;
+        bottom: 100px;
+        padding-left: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    & > button{
+        position: absolute;
+        left: 700px;
+        bottom: 10px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+
+div.commander-02{
+    background-color: seashell;
+    position: absolute;
+    top: 800px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 620px;
+    }
+
+    & > h2{
+        padding-left: 730px;
+    }
+
+    & > p{
+        padding-left: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+div.items{
+    display: flex;
+    align-items: flex-start;
+
+    & > h2{
+        font-size: 20px;
+        padding-left: 100px;
+    }
+}
+
+
+
+
+
+div.question-02{
+    background-color: seashell;
+    position: absolute;
+    top: 1450px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 1000px; 
+    }
+
+    & > img{
+        height: 300px;
+        padding-left: 200px;
+    }
+
+    & > p{
+        padding-left: 280px;
+    }
+}
+
+
+
+
+
+
+div.formulaire{
+    position:absolute;
+    left: 1000px;
+    bottom: 250px;
+    font-size: 25px;
+
+    & > form{
+        color: black; 
+    }
+
+    & > form button{
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+div.livraison-03{
+ 
+    position: absolute;
+    top: 1550px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 700px;
+    }
+
+    & > img{
+        height: 200px;
+    }
+
+    & > p{
+        position: absolute;
+        bottom: 100px;
+        padding-left: 250px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    & > button{
+        position: absolute;
+        left: 700px;
+        bottom: 10px;
+        width: 150px;
+        height: 50px;
+        color: black;
+        background-color: seashell;
+    }
+}
+
+
+
+
+
+
+
+div.commander-03{
+    background-color: seashell;
+    position: absolute;
+    top: 1200px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 620px;
+    }
+
+    & > h2{
+        padding-left: 730px;
+    }
+
+    & > p{
+        padding-left: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+div.items{
+    display: flex;
+    align-items: flex-start;
+
+    & > h2{
+        font-size: 20px;
+        padding-left: 100px;
+    }
+}
+
+
+
+
+
+div.question-03{
+    background-color: seashell;
+    position: absolute;
+    top: 1850px;
+    width: 1500px;
+
+    & > h1{
+        padding-left: 1000px;
+    }
+
+    & > img{
+        height: 300px;
+        padding-left: 200px;
+    }
+}
+
+
+div.question-03 h1{
+    padding-left: 1000px;
+}
+
+div.question-03 img{
+    height: 300px;
+    padding-left: 200px;
+}
+
+
+
+
+
+
+div.formulaire{
+    position:absolute;
+    left: 1000px;
+    bottom: 250px;
+    font-size: 25px;
+
+    & > form{
+        color: black; 
+    }
+
+    & > form button{
+        color: white;
+        background-color: pink;
+    }
+}
+
+
+
+
+
+
+div.nosProduits h1{
+    padding-left: 620px;
+}
+
+
+
+div.suggestion{
+    display: flex;
+    position: absolute;
+    top: 720px;
+    left: 160px;
+    align-items: center;
+
+    & > img{
+        margin-left: 100px;
+    }
+
+    & > h3{
+position: absolute;
+left: 525px;
+top: 50px;
+font-size: 20px;
+color: white;
+    }
+}
+
+
+
+
+
+
+button{
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color: seashell;
+}
+
+
+
+
+
+
+div.change01 img{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    height: 50px;
+}
+
+
+
+
+div.items01{
+  
+border: 2px solid black;
+
+& > p{
+    position: absolute;
+    left: 800px;
+    width: 500px;
+    top: 550px;
+    font-size: 20px;
+}
+
+& > h3{
+    position: absolute;
+    left: 800px;
+    width: 500px;
+    top: 500px;
+    font-size: 30px;
+}
+
+& > h4{
+    position: absolute;
+    left: 800px;
+    width: 500px;
+    top: 620px;
+    font-size: 18px;
+}
+
+& > img{
+    padding-left: 450px;
+}
+
+}
+
+
+
+
+
+
+div.change02 img{
+    position: absolute;
+    left: 800px;
+    top: 800px;
+    height: 50px;
+}
+
+
+
+
+div.items02{
+    border: 2px solid black;
+
+    & > p{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 950px;
+        font-size: 20px;
+    }
+
+    & > h3{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 900px;
+        font-size: 30px;
+    }
+
+    & > h4{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1020px;
+        font-size: 18px;
+    }
+
+    & > img{
+        padding-left: 450px;
+    }
+
+
+}
+
+
+
+
+
+
+div.change03 img{
+    position: absolute;
+    left: 800px;
+    top: 1200px;
+    height: 50px;
+}
+
+
+
+
+
+
+div.items03{
+  
+    border: 2px solid black;
+
+    & > p{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1350px;
+        font-size: 20px;
+    }
+
+    & > h3{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1300px;
+        font-size: 30px;
+    }
+
+    & > h4{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1420px;
+        font-size: 18px;
+    }
+
+    & > img{
+        padding-left: 450px;
+    }
+
+}
+
+
+
+
+
+
+div.change04 img{
+    position: absolute;
+    left: 800px;
+    top: 1600px;
+    height: 50px;
+}
+
+
+
+
+div.items04{
+  
+    border: 2px solid black;
+
+    & > p{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1750px;
+        font-size: 20px;  
+    }
+
+    & > h3{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1700px;
+        font-size: 30px; 
+    }
+
+    & > h4{
+        position: absolute;
+        left: 800px;
+        width: 500px;
+        top: 1820px;
+        font-size: 18px;
+    }
+
+    & > img{
+        padding-left: 450px;  
+    }
+
+}
+
+
+
+
+
+
+
+div.contenu-gestion02 h1{
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    font-size: 40px;
+
+}
+
+
+
+
+aside.choix{
+    padding-left: 100px;
+    background-color: seashell;
+}
+
+
+
+
+div.contenu-gestion01 h1{
+    padding-left: 520px;
+
+}
+
+
+
+
+div.contenu-gestion01 form{
+padding-left: 600px;
+font-size: 30px;
+
+}
+
+
+
+
+div.contenu-gestion03 h1{
+    padding-left: 520px;
+}
+
+
+
+
+div.contenu-gestion03 h2{
+    padding-left: 620px;
+}
+
+
+
+
+div.contenu-gestion03 h3{
+    padding-left: 630px;
+}
+
+
+
+
+div.contenu-gestion03 form{
+padding-left: 600px;
+font-size: 30px;
+}
+
+
+
+
+div.articles01 p{
+    position: absolute;
+    left: 600px;
+    top: 350px;
+}
+
+
+
+
+div.articles01 img{
+    padding-left: 280px;
+}
+
+
+
+
+div.articles01 h3{
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+    font-size: 40px;
+
+
+
+
+}
+
+div.articles02 p{
+    position: absolute;
+    left: 600px;
+    top: 750px;
+}
+
+div.articles02 img{
+    padding-left: 280px;
+}
+
+div.articles02 h3{
+    position: absolute;
+    left: 1000px;
+    top: 800px;
+    font-size: 40px;
+
+}
+
+div.prix{
+    padding-left: 750px;
+}
+
+div.panierIcon img{
+    padding-left: 1300px;
+    height: 50px;
+    top: 20px;
+}
+
+div.connecterIcon img{
+    padding-left: 1400px;
+    height: 50px;
+    top: 20px;
+}
+
+div.creation{
+    position: absolute;
+    left: 800px;
+    width: 450px;
+    height: 200px;
+    background-color: seashell;
+    border: 1px solid black;
+
+
+    @include breakpoint(1024){
+        background-color: lightgray;
+
+    }
+}
+
+div.connection{
+    position: absolute;
+    left: 300px;
+    width: 450px;
+    height: 200px;
+    background-color: seashell;
+    border: 1px solid black;
+
+    @include breakpoint(1024){
+        background: lightgray;
+    }
+}
